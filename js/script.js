@@ -200,7 +200,7 @@ function GameLogic() {
 								victory.classList.remove('overlay');
 							}, 800);
 							victory.addEventListener('click', () => {
-								document.location.href = '/';
+								document.location.href = '../index.html';
 							})
 						}
 					}
